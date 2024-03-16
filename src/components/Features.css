@@ -1,0 +1,116 @@
+*
+{
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.featurescontainer
+{
+    height: 135vh;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.heading
+{
+    width: 40%;
+    padding-left: 1.5%;
+    margin-top: 2%;
+}
+
+.ourfeatures
+{
+    font-size: 400%;
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+.ourfeaturescontent
+{
+    margin-top: -10.5%;
+    font-size: 180%;
+    font-weight: 400;
+}
+
+.featurescontain
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 5%;
+    margin-top: 2%;
+}
+.featuresbox
+{
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    border: none;
+    border-radius: 15px;
+    padding-left: 1%;
+}
+
+.featuresbox::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(194, 83, 225, 0.35);
+    transition: left 0.5s ease;
+}
+
+.featuresbox:hover::before 
+{
+    left: 0;
+}
+
+.featuresbox:hover 
+{
+    transform: scale(1.05);
+}
+
+.featurewiseheading
+{
+    font-size: 250%;
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+.featurewisecontent
+{
+    font-size: 120%;
+    font-weight: 400;
+    margin-top: -5%;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .featurescontainer
+    {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading
+    {
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .featurescontain
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}

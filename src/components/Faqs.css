@@ -1,0 +1,116 @@
+*
+{
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .faqssupercontainer
+{
+    margin-top: 2%;
+} */
+
+.faqsmegacontainer
+{
+    margin-top: 10%;
+    height: 122vh;
+    width: 90%;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-bottom: 9%;
+    transition: background-color 0.5s ease;
+    padding-top: 0.1%;
+}
+
+.faqsmegacontainer.scrolled 
+{
+    background: rgb(173,48,187);
+    background: linear-gradient(162deg, rgba(173,48,187,1) 7%, rgba(203,40,218,1) 27%, rgba(247,207,249,1) 71%, rgba(255,255,255,1) 96%);
+}
+
+.sectiontitle
+{
+    font-size: 350%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sectiontitlecontain
+{
+    margin-top: -1%;
+}
+
+.faqscontain 
+{
+    margin-top: -1.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.faqsbox
+{
+    width: 45%;
+    height: 200px;
+    border-radius: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    transition: transform 0.5s ease;
+}
+
+.faqsbox:hover
+{
+    transform: scale(1.05);
+}
+
+.faqswiseheading
+{
+    font-size: 170%;
+    font-weight: 600;
+    margin-top: 1%;
+    margin-bottom: -0.5%;
+}
+
+.faqswisecontent
+{
+    font-size: 145%;
+    font-weight: 400;
+    margin-top: 1%;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .faqsmegacontainer
+    {
+        background: rgb(173,48,187);
+        background: linear-gradient(180deg, #ad30bb 7%, rgba(203,40,218,1) 27%, rgba(247,207,249,1) 71%, rgba(255,255,255,1) 96%);
+        height: auto;
+        padding-top: 0.3%;
+    }
+
+    .faqscontain
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faqsbox
+    {
+        width: 90%;
+        margin-top: 0%;
+    }
+
+    .faqswiseheading
+    {
+        margin-top: 0%;
+    }
+
+    .faqswisecontent
+    {
+        margin-top: 0%;
+    }
+}

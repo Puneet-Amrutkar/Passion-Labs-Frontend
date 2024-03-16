@@ -1,0 +1,111 @@
+*
+{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(173, 48, 187);
+    color: white;
+}
+
+.navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-links_logo {
+    margin-left: 25px;
+}
+
+.navbar-links_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-links_container p,
+.navbar-sign p,
+.navbar-menu_container p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.navbar-sign button{
+    margin-right: 2rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #ff4920cc;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.home, .features, .faq
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 120%;
+    letter-spacing: 2px;
+    margin-right: 50px;
+}
+
+a:hover 
+{
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links_logo
+    {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        /* align-items: center;
+        justify-content: center; */
+        width: 100%;
+    }
+
+    .navbar-links
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+        padding-left: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
