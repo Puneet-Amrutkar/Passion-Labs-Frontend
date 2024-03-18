@@ -62,12 +62,31 @@
     transition: transform 0.5s ease;
 }
 
+.faqsbox-1
+{
+    width: 45%;
+    height: 175px;
+    border-radius: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: -1%;
+    transition: transform 0.5s ease;
+}
+
 .faqsbox:hover
 {
     transform: scale(1.05);
 }
 
 .faqswiseheading
+{
+    font-size: 150%;
+    font-weight: 600;
+    margin-top: 0.5%;
+    margin-bottom: -0.5%;
+}
+
+.faqswiseheading-1
 {
     font-size: 150%;
     font-weight: 600;
@@ -98,21 +117,30 @@
         background: rgb(173,48,187);
         background: linear-gradient(180deg, #ad30bb 7%, rgba(203,40,218,1) 27%, rgba(247,207,249,1) 71%, rgba(255,255,255,1) 96%);
         height: auto;
-        padding-top: 0.3%;
+        gap: 0;
+        /* padding-top: 0.3%; */
     }
 
-    .faqscontain
+    /* .faqscontain
     {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+    } */
 
     .faqsbox
     {
         width: 90%;
         margin-top: 0%;
+        height: 150px;
+    }
+
+    .faqsbox-1
+    {
+        width: 90%;
+        margin-top: -7%;
+        height: 150px;
     }
 
     .faqswiseheading
@@ -120,7 +148,6 @@
         margin-top: 0%;
         font-size: 120%;
     }
-
     .faqswisecontent
     {
         margin-top: 0.5%;
