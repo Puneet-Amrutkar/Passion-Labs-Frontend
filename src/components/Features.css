@@ -119,3 +119,32 @@
         flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 499px)
+{
+    .featurescontainer
+    {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .ourfeaturescontent
+    {
+        margin-top: -3%;
+    } */
+
+    .heading
+    {
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .featurescontain
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
