@@ -5,7 +5,7 @@
 
 .faqssupercontainer
 {
-    /* margin-top: 2%; */
+    margin-top: 2%;
     height: auto;
 }
 
@@ -84,6 +84,15 @@
 
 @media only screen and (max-width: 600px)
 {
+    .faqssupercontainer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
     .faqsmegacontainer
     {
         background: rgb(173,48,187);
@@ -109,10 +118,12 @@
     .faqswiseheading
     {
         margin-top: 0%;
+        font-size: 120%;
     }
 
     .faqswisecontent
     {
-        margin-top: 0%;
+        margin-top: 0.5%;
+        font-size: 110%;
     }
 }
