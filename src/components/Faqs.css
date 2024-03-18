@@ -37,7 +37,7 @@
 
 .sectiontitlecontain
 {
-    margin-top: -1%;
+    margin-top: -2.5%;
 }
 
 .faqscontain 
@@ -47,7 +47,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .faqsbox
@@ -57,6 +57,7 @@
     border-radius: 15px;
     padding-left: 1%;
     padding-right: 1%;
+    margin-top: -1%;
     transition: transform 0.5s ease;
 }
 
@@ -69,7 +70,7 @@
 {
     font-size: 170%;
     font-weight: 600;
-    margin-top: 1%;
+    margin-top: 0.5%;
     margin-bottom: -0.5%;
 }
 
