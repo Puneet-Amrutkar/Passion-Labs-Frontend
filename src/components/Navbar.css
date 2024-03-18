@@ -76,7 +76,8 @@ a:hover
     color: black;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) 
+{
     .navbar
     {
         display: flex;
