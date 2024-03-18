@@ -23,7 +23,7 @@ const Faqs = () => {
   }, []);
 
   return (
-    // <div className='faqssupercontainer'>
+    <div className='faqssupercontainer'>
     <div id='faqs' className={`faqsmegacontainer ${isScrolled ? 'scrolled' : ''}`}>
       <div className='sectiontitlecontain'>
         <p className='sectiontitle'>Frequently Asked Questions</p>
@@ -55,7 +55,7 @@ const Faqs = () => {
         </div>
       </div>
     </div>
-    // </div>
+    </div>
   )
 }
 
