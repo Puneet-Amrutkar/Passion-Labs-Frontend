@@ -1,7 +1,7 @@
 *
 {
     scroll-behavior: smooth;
-    padding: none;
+    box-sizing: border-box;
 }
 
 .navbar {
